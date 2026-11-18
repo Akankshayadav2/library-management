@@ -1,0 +1,21 @@
+# Build output (Maven puts compiled classes and jars here)
+target/
+
+# IDE settings (personal, not part of the project)
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Never commit secrets (in case you create a local env file)
+.env
+application-local.properties
